@@ -1,0 +1,19 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Psi4 runtime outputs and scratch files
+output.dat
+output_ml.dat
+timer.dat
+psi.*.clean
+psi.*.*
+
+# OS and editor temporary files
+.DS_Store
+*.swp
+*.swo
+*~
+# Psi4 logs inside training data folder (keep .npz files)
+cc_training_data/*.dat

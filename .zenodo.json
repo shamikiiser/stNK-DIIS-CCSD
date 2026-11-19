@@ -1,0 +1,28 @@
+{
+  "title": "Unified Spin-Orbital CCSD Solver with Stall-Triggered Newton-Krylov DIIS (stNK-DIIS and stNKML-DIIS)",
+  "upload_type": "software",
+  "license": "BSD-3-Clause",
+  "creators": [
+    {
+      "name": "Chanda, Shamik",
+      "affiliation": "Department of Chemical Sciences, IISER Kolkata"
+    },
+    {
+      "name": "Basumalick, Suhita",
+      "affiliation": "Department of Chemical Sciences, IISER Kolkata"
+    },
+    {
+      "name": "Sen, Sangita",
+      "affiliation": "Department of Chemical Sciences, IISER Kolkata"
+    }
+  ],
+  "keywords": [
+    "coupled cluster",
+    "CCSD",
+    "Newton-Krylov",
+    "DIIS",
+    "Psi4",
+    "quantum chemistry",
+    "machine learning"
+  ]
+}

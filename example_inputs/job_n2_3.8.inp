@@ -1,0 +1,8 @@
+method nk
+basis cc-pvdz
+freeze_core false
+
+0 1
+N
+N 1 3.8
+symmetry c1

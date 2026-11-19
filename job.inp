@@ -1,0 +1,22 @@
+memory 12
+method st_nk_diis
+reference RHF
+basis cc-pvdz
+freeze_core false
+0 1
+C
+N 1 3.2
+H 1 1.09 2 122.0
+H 1 1.09 2 122.0 3 180.0
+H 2 1.01 1 110.0 3 0.0
+symmetry c1
+
+
+
+
+
+
+
+
+
+
