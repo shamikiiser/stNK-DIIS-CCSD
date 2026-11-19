@@ -190,7 +190,7 @@ python3 ccsd_master.py --job job.inp --method nk_diis --nk_restart 5 --nk_maxite
 | `--model` | `None` | Overrides `model` in `job.inp` (path to `.pt` checkpoint for `st_nkml_diis`). |
 | `--maxiter` | `100` | Maximum CCSD macro-iterations. |
 | `--stall_count` | `3` | Consecutive stagnant iterations required to trigger recovery. |
-| `--stall_ratio` | `0.98` | Residual ratio threshold ($r_k = \|R^{(k)}\|_2 / \|R^{(k-1)}\|_2 > \text{stall\_ratio}$). |
+| `--stall_ratio` | `0.98` | Residual ratio threshold ($r_k = \Vert R^{(k)} \Vert_2 / \Vert R^{(k-1)} \Vert_2 > \rho_{\mathrm{stall}}$). |
 | `--verify_every` | Auto (`3` / `2`) | Consecutive accepted recoveries before forcing DIIS recalibration. Defaults to `3` for `st_nk_diis` and `2` for `st_nkml_diis`. |
 | `--nk_restart` | Auto (`10` / `5`) | GMRES Krylov subspace restart size. Defaults to `10` (`st_nk_diis`/others) and `5` (`st_nkml_diis`). |
 | `--nk_maxiter` | Auto (`10` / `5`) | Maximum GMRES iteration/restart budget. Defaults to `10` (`st_nk_diis`/others) and `5` (`st_nkml_diis`). |
