@@ -247,7 +247,7 @@ A pre-trained checkpoint (`cc_accelerator.pt`) and its harvested dataset (`cc_tr
 
 ## Attribution, Citations & License
 
-The spin-orbital CCSD tensor-contraction kernel in `helper_CC.py` is adapted from the [Psi4NumPy](https://github.com/psi4/psi4numpy) project (Daniel G. A. Smith and Lori A. Burns) under the **BSD-3-Clause** license, and extended by Shamik Chanda, Suhita Basumalick, and Sangita Sen with generalized UHF spin-orbital support, staged SCF recovery, JFNK GMRES, RDIIS, Stall-Triggered NK–DIIS (`st_nk_diis`), ML-accelerated scalar step-size control (`st_nkml_diis`), and limited-memory Type-II Broyden solvers.
+The spin-orbital CCSD tensor-contraction kernel in `helper_CC.py` is adapted from the [Psi4NumPy](https://github.com/psi4/psi4numpy) project (Daniel G. A. Smith and Lori A. Burns) under the **BSD-3-Clause** license, and extended by Shamik Chanda, Suhita Basumallick, and Sangita Sen with generalized UHF spin-orbital support, staged SCF recovery, JFNK GMRES, RDIIS, Stall-Triggered NK–DIIS (`st_nk_diis`), ML-accelerated scalar step-size control (`st_nkml_diis`), and limited-memory Type-II Broyden solvers.
 
 If you use this codebase in published work, please cite:
 
